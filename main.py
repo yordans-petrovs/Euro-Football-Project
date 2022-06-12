@@ -15,7 +15,7 @@ teams_cities = [
 ]
 teams_budgets = [107, 10, 20, 110, 15, 89, 85, 45, 61, 92, 103, 56, 11, 8, 21, 35, 14, 15]
 
-# create a tournament - set the name and the country, as well as teams in the competition
+# create a tournament - set the name and the country, as well as teams' count in the competition
 c = Tournament("New Tournament", "country_I", 18)
 
 # fill in the tournament created with the data
