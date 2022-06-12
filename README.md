@@ -11,4 +11,7 @@ Create, manage, and follow up each tournament using your own Tournament Model.
 
 Each of the classes has its own "id" attribute in order to make the instances unique.
 
+Check the requirements.txt file for the required libraries. Although the competition table can be printed as a multiline string,
+numpy and pandas are imported as a next step tools to get some insights from the dataset.
+
 Enjoy!
