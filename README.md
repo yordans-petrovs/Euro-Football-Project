@@ -1,7 +1,7 @@
 # Euro-Football-Project
 Create, manage, and follow up each tournament using your own Tournament Model.
 
-- Files starting with "top_level_..." are the spefici players' creators. Set the skills a player needs and assign points or other category to their characteristics.
+- Files starting with "top_level_..." are the speficic players' position creators. Set the skills a player needs and assign points or other category to their characteristics.
 
 - team_factory.py consists of the building instance attributes, as well as functions to get other data such as points, yellow and red cards.
 
