@@ -1,5 +1,5 @@
 from game_factory import Game
-from goalkeepers.goalkeeper_factory import GoalkeeperFactory
+from goalkeepers.top_level_goalkeeper import TopLevelGoalkeeper
 from team_factory import TeamFactory
 from tournament_factory import Tournament
 
@@ -29,7 +29,7 @@ def run_the_tournament():
     c.get_data_from_game(g)
     g = Game(c, "team_C", "team_B", 2, 3, 0, 1, 1, 0)
     c.get_data_from_game(g)
-    c.teams[0].add_player(GoalkeeperFactory().get_goalkeeper("top", "S", "L"))
+    c.teams[0].add_player(TopLevelGoalkeeper("S", "L"))
 
     return c.get_table(sorting_order="standard")
 
